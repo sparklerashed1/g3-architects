@@ -178,8 +178,71 @@ nav ul li a {
     font-size: 25px;
 }
 
+/* Facts styels  */
+
+.some-facts {
+    padding: 70px 0;
+}
+
+.facts-content h2 {
+    font-size: 45px;
+}
+
+.facts-content p {
+    width: 542px;
+    margin-top: 30px;
+}
+
+.facts-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.facts-item .item {
+    padding: 35px;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+}
+
+.facts-item .item h3 {
+    font-size: 45px;
+}
+
+/* sponsors  */
+.some-facts .border-none {
+    border: none;
+    padding: 10px 0;
+}
+
+.some-facts .sponsors {
+    text-align: center;
+    margin: auto;
+}
+
+.some-facts .sponsors .sponsors-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
 
 
+/* footer styles  */
+
+footer .footer {
+    width: 1140px;
+    margin: auto;
+    background-color: #FFF4E7
+    ;
+    padding: 20px 0;
+}
+
+.footer .footer-text {
+    color: #727272;
+    text-align: center;
+}
 
 
 
@@ -194,12 +257,14 @@ nav ul li a {
 
 @media screen and (max-width: 576px) {
 
-    .container {
+    header {
         width: 100%;
+        height: 800px;
     }
 
     header .logo {
-        font-size: 32px;
+        font-size: 25px;
+        margin-bottom: 10px;
     }
 
     nav {
@@ -214,26 +279,71 @@ nav ul li a {
         margin-left: 20px;
     }
 
-    .hero-content .hero-title {
-        font-size: 35px;
+    .hero-content {
+        padding: 0 20px;
     }
 
-    .hero-content .hero-description {
-        width: 10ch;
+    .hero-content .hero-title {
+        font-size: 30px;
     }
 
     .features-section {
         display: flex;
         flex-direction: column;
-        padding: 0 15px;
+        padding: 70px 15px;
         justify-content: center;
         align-items: center;
+
     }
 
     .feature-left {
         display: flex;
         flex-direction: column;
     }
+
+    .feature-left img {
+        width: 100%;
+    }
+
+    .features-section-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 20px;
+    }
+
+    .features-section-2 .feature-title {
+        font-size: 32px;
+    }
+    .feature-2-btn {
+        display: block;
+        margin: 0;
+        font-size: 32px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .facts-content {
+        padding: 0 20px;
+    }
+
+    .facts-content h2 {
+        font-size: 32px;
+    }
+
+    .facts-content p {
+        width: 100%;
+    }
+    .facts-item {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    footer .footer {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {}
