@@ -1,5 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700&display=swap');
 
+* {
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1100px;
+}
+
+/* ===================== Header Styles================== */
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    height: 1300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    padding-top: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+.hero-content {
+    width: 882px;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 64px;
 }
