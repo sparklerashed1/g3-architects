@@ -234,8 +234,7 @@ nav ul li a {
 footer .footer {
     width: 1140px;
     margin: auto;
-    background-color: #FFF4E7
-    ;
+    background-color: #FFF4E7;
     padding: 20px 0;
 }
 
@@ -314,6 +313,7 @@ footer .footer {
     .features-section-2 .feature-title {
         font-size: 32px;
     }
+
     .feature-2-btn {
         display: block;
         margin: 0;
@@ -333,16 +333,28 @@ footer .footer {
     .facts-content p {
         width: 100%;
     }
+
     .facts-item {
         flex-direction: column;
         gap: 30px;
         margin-top: 50px;
     }
 
+
+    .some-facts {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .some-facts .sponsors {
+        margin-top: 70px;
+    }
+
     footer .footer {
         width: 100%;
         padding: 30px 20px;
     }
+
 
 }
 
